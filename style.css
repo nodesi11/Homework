@@ -179,3 +179,9 @@ footer {
   width: 100%;
   z-index: 100;
 }
+
+@media only screen and (max-width: 870px) {
+  div[class="img"] {
+    width: 100%;
+  }
+}
