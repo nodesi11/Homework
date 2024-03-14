@@ -90,9 +90,7 @@ li a {
 nav ul li a:hover {
   background: rgba(0, 0, 255, 0.3);
 }
-nav ul li a: {
-  color: blue;
-}
+
 #login {
   width: 50px;
   height: 60px;
