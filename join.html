@@ -16,35 +16,41 @@
         background-color: #030507;
         margin: 0;
         padding: 0;
+        max-width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         /* border: 1px solid white; */
       }
-
       .container {
         width: 570px;
+        max-width: 100%;
         height: 410px;
         margin: 50px auto;
-        background: url(images/deepdark.png) no-repeat left top/cover;
-        padding: 20px;
+        background: url(images/deepdark.png) no-repeat center top/cover;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         color: white;
-        border: 1px solid white;
+        /* border: 1px solid white; */
       }
 
       h2 {
         text-align: center;
+      }
+      label {
+        margin: 20px 30px;
+      }
+      form {
+        margin-top: 20px;
       }
 
       input[type="text"],
       input[type="tel"],
       input[type="email"],
       input[type="submit"] {
-        width: 100%;
+        width: 90%;
         padding: 10px;
         margin: 18px auto;
         display: block;
@@ -52,11 +58,11 @@
         border-radius: 5px;
         background-color: transparent;
         color: white;
+        text-shadow: 1px 1px #030507, -1px 1px #030507, 1px -1px #030507,
+          -1px -1px #030507;
       }
 
       input[type="submit"] {
-        left: 130px;
-        top: -15px;
         background-color: transparent;
         color: transparent;
         border: none;
@@ -64,7 +70,7 @@
         width: 270px;
         height: 80px;
         transition-duration: 2s;
-        /* border: 1px solid white; */
+        border: 1px solid white;
       }
 
       input[type="submit"]:hover {
@@ -74,6 +80,7 @@
         border: 5px solid #555;
         padding: 10px;
         width: 570px;
+        max-width: 100%;
         height: 80px;
         border-radius: 40px;
         margin: 0px auto;
@@ -107,7 +114,7 @@
         <label for="email">이메일</label>
         <input type="email" id="email" name="email" required />
 
-        <input type="submit" value="submit" />
+        <input type="submit" value="" />
       </form>
     </div>
     <div class="back"><a href="index.html">BACK</a></div>
