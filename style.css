@@ -9,6 +9,7 @@
 }
 a {
   text-decoration: none;
+  color: unset;
 }
 body {
   margin: 0;
@@ -142,11 +143,11 @@ aside ul h2 {
 }
 
 aside ul ul {
-  padding-left: 10%;
+  padding: 10%;
 }
 aside ul ul li {
   margin: 5px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 section {
   position: relative;
@@ -196,7 +197,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
   * {
-    font-size: 7px;
+    font-size: 6px;
   }
   div[class="img"] {
     width: 100%; /* 스마트폰 세로 환경에서는 전체 너비로 설정 */
