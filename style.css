@@ -202,4 +202,7 @@ footer {
   div[class="img"] {
     width: 100%; /* 스마트폰 세로 환경에서는 전체 너비로 설정 */
   }
+  aside ul ul {
+    padding: 2%;
+  }
 }
