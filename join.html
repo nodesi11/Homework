@@ -3,104 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>회원가입 폼</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #030507;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* border: 1px solid white; */
-      }
-      .container {
-        width: 570px;
-        max-width: 100%;
-        height: 410px;
-        margin: 50px auto;
-        background: url(images/deepdark.png) no-repeat center top/cover;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        color: white;
-        /* border: 1px solid white; */
-      }
-
-      h2 {
-        text-align: center;
-      }
-      label {
-        margin: 20px 30px;
-      }
-      form {
-        margin-top: 20px;
-      }
-
-      input[type="text"],
-      input[type="tel"],
-      input[type="email"],
-      input[type="submit"] {
-        width: 90%;
-        padding: 10px;
-        margin: 18px auto;
-        display: block;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: transparent;
-        color: white;
-        text-shadow: 1px 1px #030507, -1px 1px #030507, 1px -1px #030507,
-          -1px -1px #030507;
-      }
-
-      input[type="submit"] {
-        background-color: transparent;
-        color: transparent;
-        border: none;
-        cursor: pointer;
-        width: 270px;
-        height: 80px;
-        transition-duration: 2s;
-        /* border: 1px solid white; */
-      }
-
-      input[type="submit"]:hover {
-        background-color: #030507;
-      }
-      .back {
-        border: 5px solid #555;
-        padding: 10px;
-        width: 570px;
-        max-width: 100%;
-        height: 80px;
-        border-radius: 40px;
-        margin: 0px auto;
-        text-align: center;
-        transition: 0.5s linear;
-      }
-
-      a {
-        text-decoration: none;
-        color: #555;
-        font-size: 50px;
-      }
-
-      .back:hover {
-        background-color: #ccc;
-        color: #444;
-        border-color: #444;
-        outline: 1px solid #ccc;
-      }
-    </style>
+    <title>회원가입</title>
+    <link href="styles/join.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
@@ -117,6 +21,6 @@
         <input type="submit" value="" />
       </form>
     </div>
-    <div class="back"><a href="index.html">BACK</a></div>
+    <a href="index.html"> <div class="back">BACK</div></a>
   </body>
 </html>
