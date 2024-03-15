@@ -179,7 +179,7 @@ div[class="img"] {
 #home {
   width: 100%;
   height: 85vh;
-  background: url("../images/weekly.jpg") no-repeat top left/contain;
+  background: url("../images/weekly.jpg") no-repeat top center/contain;
   /* border: 1px solid black; */
 }
 section img {
