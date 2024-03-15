@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #ffd5ce;
 }
 header {
   width: 100%;
@@ -116,7 +117,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #ffd5ce;
 }
 aside {
   position: relative;
